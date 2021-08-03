@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.brand{
+    max-width: 5rem;
+}
+
+li a{
+    text-decoration: none;
+    margin: 1rem;
+    color: black;
+}
+
+li a:hover{
+    color: chartreuse;
+}
+.navbar-brand{
+    font-size: 4rem;
+}
+button,
+input{
+    border-radius: 20px;
+    padding: 0 1rem;
+}
+.search{
+    margin: 1rem; 
+}
+.btn{
+    margin: 1rem;
+}
+.showcase-items{
+    align-items: center;
+    text-align: center;
+}
+
+.d-flex{
+    border: chocolate 1px solid;
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    margin: 1rem 0;
+}
+.product-description{
+    align-content: center;
+    text-align: center;
+}
+.number{
+    position: relative;
+    width: 10%;
+    height: 20%;
+    padding: 1rem;
+    align-items: center;
+}
+.product1{
+    background-color:green;
+    color: white;
+}
+.product2{
+    background-color: red;
+    color: white;
+}
+.product3 {
+    background-color:blue;
+    color: white;
+}
+.product4 {
+    background-color: green;
+    color: white;
+}
+/* Footer  */
+
+.mailing-list input{
+    margin:0;
+}
+.mailing-list button{
+    margin: 0;
+}
+.social-icons .bi{
+    font-size: 2.5rem;
+    color: white;
+    margin: 1rem 1rem 1rem 0;
+}
+
+input:focus{
+    border: none;
+}
