@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+.body-content{
+    background-image: url(/imgs/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .brand{
     max-width: 5rem;
 }
@@ -18,6 +23,12 @@ li a:hover{
 }
 .navbar-brand{
     font-size: 4rem;
+}
+
+/* showcase  */
+
+.showcase{
+    background: rgba(102, 102, 104, 0.6);
 }
 button,
 input{
@@ -44,15 +55,16 @@ input{
     margin: 1rem 0;
 }
 .product-description{
-    align-content: center;
-    text-align: center;
+    margin:0 auto;
 }
 .number{
     position: relative;
-    width: 10%;
-    height: 20%;
-    padding: 1rem;
+    width: 5%;
+    height: 5%;
+    padding: auto;
+    text-align: center;
     align-items: center;
+    margin:0 auto;
 }
 .product1{
     background-color:green;
@@ -71,6 +83,7 @@ input{
     color: white;
 }
 /* Footer  */
+
 
 .mailing-list input{
     margin:0;
